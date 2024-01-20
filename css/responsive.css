@@ -812,6 +812,20 @@ Version:	1.1
 	float: none;
 	width: 100%;
 }
+
+.single-news .news-body {
+    min-height: 9vh; /* You can adjust this value as needed */
+    height: 100%; /* Add this line to set a fixed height */
+    overflow: hidden;
+}
+
+.single-news .news-head img {
+    height: 9vh; /* Set a fixed height for the images */
+    width: auto; /* Maintain aspect ratio */
+    /* Add any additional styles as needed */
+}
+
+
 .news-single .single-comments img {
 	position: absolute;
 	left: 0;
